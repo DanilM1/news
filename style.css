@@ -18,6 +18,10 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
 }
 
+#list {
+    text-align: center;
+}
+
 .news {
     background-color: khaki;
     padding: 50px 0 32px;
@@ -61,7 +65,7 @@ article img {
 
 p {text-align: left;}
 
-article:nth-child(even) {
+article:nth-child(2n + 1) {
     background: seagreen;
 }
 
